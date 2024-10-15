@@ -3,17 +3,17 @@ public class Review01 {
 
     public static void main(String[] args) {
         int num1 =1500;
-        int num2 = 10;
+        double num2 = 0.1;
         int result;
-        result = sumMethod2(num1,num2);
+        result = (int) sumMethod2(num1,num2);
         System.out.println ( num1 +"円の税込み価格は"+( num1 +result ) +"円（消費税は"+ result + "円)です。");
 
 
 
 
     }
-    public static int sumMethod2(int num1 , int num2) {
-        int num = num1 / num2;
+    public static double sumMethod2(double num1 , double num2) {
+        double num = num1 * num2;
                  return num;
     }
 
