@@ -2,7 +2,7 @@
 public class Review01 {
 
     public static void main(String[] args) {
-        int num1 =1700;
+        int num1 =1500;
         int num2 = 10;
         int result;
         result = sumMethod2(num1,num2);
